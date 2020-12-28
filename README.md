@@ -7,3 +7,7 @@ This function evaluates 2nd degree polynomial values that fits to the given inpu
 **calcSampCorr**
 
 This function calculates sample correlation coefficients for two data arrays.
+
+**createXYZ**
+
+This script creates an XYZ file from a data matrix (i*j), and corresponding longitude and latitude arrays. Longitude array should follow the lines (i) of the data array, where latitude array should follow the columns (j) of data array. If the opposite is true, change z(i,j) to z(j,i).
