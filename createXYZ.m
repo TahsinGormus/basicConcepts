@@ -1,7 +1,7 @@
 % This script creates an XYZ file from a data matrix (i*j), and corresponding
 % longitude and latitude arrays. Longitude array should follow the lines (i) of
 % the data array, where latitude array should follow the columns (j) of data
-% array. If the opposite is true, change z(i,j) to z(j,i).
+% array. If the opposite is true, change data to data'.
 
 load lat.txt % Latitudes (j*1)
 load lon.txt % Longitudes (i*1)
