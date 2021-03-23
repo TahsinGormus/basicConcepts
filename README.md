@@ -6,7 +6,7 @@ This function evaluates 2nd degree polynomial values that fits to the given inpu
 
 **calcSampCorr**
 
-This function calculates sample correlation coefficients for two data arrays.
+This function calculates sample correlation coefficient for two data arrays.
 
 **calcNormalizedBias**
 
